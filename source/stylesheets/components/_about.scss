@@ -1,0 +1,15 @@
+.about {
+  // position: relative;
+  height: 70vh;
+  // width: 100%;
+  border: .4em solid $scheme2-dark;
+  border-radius: .5rem;
+}
+
+@media only screen and (max-width: 580px) {
+  .about {
+    border-radius: 0;
+    border-right: none;
+    border-left: none;
+  }
+}
