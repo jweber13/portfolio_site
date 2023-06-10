@@ -6,19 +6,19 @@
 .avatar-large {
   height: 30vh;
   object-fit: contain;
-  border-radius: 5%;
-  border: $scheme2-light 5px solid;
+  border-radius: 1rem;
+  border: black 5px solid;
   position: relative;
   z-index: 2;
 }
 
 .line {
   position: absolute;
-  top: 33%;
+  top: 38%;
   left: 0;
   right: 0;
   height: .4em;
-  background-color: $scheme2-light;
+  background: black;
   transform: translateY(-50%);
   z-index: 1;
 }
@@ -29,10 +29,19 @@
   }
 }
 
-@media only screen and (max-width: 480px) {
+// @media only screen and (max-width: 480px) {
+//   .line {
+//     display: none;
+//   }
+// }
+
+@media only screen and (max-width: 580px) {
   .line {
     display: none;
   }
+  // .avatar-large {
+  //   height: 20vh;
+  // }
 }
 
 .avatar-bordered {

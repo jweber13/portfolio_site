@@ -7,17 +7,19 @@
 .card-product {
   overflow: hidden;
   height: 120px;
-  background: white;
+  border: solid black 5px;
+  border-radius: .5rem;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
   display: flex;
   align-items: center;
 }
 
 .card-product img {
-  height: 100%;
-  width: 160px;
+  height: 100px;
+  width: 100px;
+  border-right: black solid 1px;
   object-fit: cover;
-  // position: top;
+  // border-radius: 50%;
 }
 
 .card-product h2 {
@@ -62,6 +64,9 @@
   .external-link {
     opacity: 1;
   }
+  // .about-me-left {
+  //   height: max-content;
+  // }
 }
 
 // Small devices (landscape phones, 576px and up)

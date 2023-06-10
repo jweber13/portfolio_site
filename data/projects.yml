@@ -2,18 +2,22 @@
   description: A Rails Web App to help users find doctors in Japan & better communicate their symptoms
   image: projects/clinic.png
   url: http://www.kenkoumatch.com
+  id: 1
 
 - name: Break Stuff
   description: Rails desktop app modeled on Airbnb with a "rage room" theme
   image: projects/b_slogo.JPG
   url: https://breakstufftokyo.herokuapp.com/
+  id: 2
 
 - name: Minesweeper
   description: Minesweeper App in JS & HTML
   image: projects/okh1_6zrz_201215.jpg
   url: https://jweber13.github.io/minesweeper/
+  id: 3
 
 - name: Rails
   description: Decent description of the app
   image: projects/placeholder.png
   url: https://www.google.com
+  id: 4
