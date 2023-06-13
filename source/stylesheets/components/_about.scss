@@ -1,0 +1,35 @@
+.main-container {
+  max-width: 580px;
+  margin: 0px auto;
+  border-radius: 1rem;
+  border: black 5px solid;
+  padding: 24px;
+  margin-bottom: 24px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.main-container p {
+  font-size: 18px;
+}
+
+.main-container h4 {
+  text-align: center;
+  // text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.wrapper-white {
+  // background-color: white;
+  align-items: center;
+  margin-bottom: 24px;
+  border-radius: 5px;
+}
+
+
+// Medium devices (tablets, 768px and up)
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 580px) {
+
+}

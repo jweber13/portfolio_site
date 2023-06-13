@@ -4,6 +4,19 @@
   grid-gap: 16px;
 }
 
+.card-category {
+  background-size: cover;
+  background-position: center;
+  height: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  position: relative;
+  margin-bottom: 7em;
+}
+
 .card-product {
   overflow: hidden;
   height: 120px;
