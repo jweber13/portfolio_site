@@ -1,4 +1,14 @@
 .main-container {
+  max-width: 620;
+  margin: 0px auto;
+  border-radius: 1rem;
+  border: black 5px solid;
+  padding: 24px;
+  margin-bottom: 24px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.sub-container {
   max-width: 580px;
   margin: 0px auto;
   border-radius: 1rem;
@@ -22,6 +32,11 @@
   align-items: center;
   margin-bottom: 24px;
   border-radius: 5px;
+}
+
+.tech-card i {
+  font-size: 2rem; /* Adjust the value as per your preference */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 
