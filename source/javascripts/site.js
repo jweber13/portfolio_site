@@ -2,15 +2,15 @@ const techDisp = document.querySelector('.tech-disp');
 console.log(techDisp);
 
 const techCards = [
-  '<i class="devicon-python-plain colored"></i>',
-  '<i class="devicon-ruby-plain colored"></i>',
-  '<i class="devicon-javascript-plain colored"></i>',
-  '<i class="devicon-html5-plain colored"></i>',
-  '<i class="devicon-css3-plain colored"></i>',
-  '<i class="devicon-postgresql-plain colored"></i>',
-  '<i class="devicon-sqlite-plain colored"></i>',
-  '<i class="devicon-django-plain colored"></i>',
-  '<i class="devicon-rails-plain colored"></i>',
+  '<i class="devicon-python-plain-wordmark"></i>',
+  '<i class="devicon-ruby-plain-wordmark "></i>',
+  '<i class="devicon-javascript-plain "></i>',
+  '<i class="devicon-html5-plain-wordmark "></i>',
+  '<i class="devicon-css3-plain-wordmark "></i>',
+  '<i class="devicon-postgresql-plain-wordmark "></i>',
+  '<i class="devicon-sqlite-plain-wordmark "></i>',
+  '<i class="devicon-django-plain-wordmark "></i>',
+  '<i class="devicon-rails-plain-wordmark "></i>',
 ];
 
 techCards.forEach(techCard => {
