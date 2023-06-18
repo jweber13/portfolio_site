@@ -11,6 +11,9 @@ const techCards = [
   '<i class="devicon-sqlite-plain-wordmark "></i>',
   '<i class="devicon-django-plain-wordmark "></i>',
   '<i class="devicon-rails-plain-wordmark "></i>',
+  '<i class="devicon-docker-plain-wordmark"></i>',
+  '<i class="devicon-github-original-wordmark"></i>',
+  '<i class="devicon-heroku-original-wordmark"></i>'
 ];
 
 techCards.forEach(techCard => {
