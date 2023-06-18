@@ -7,7 +7,10 @@
   height: 30vh;
   object-fit: contain;
   border-radius: 1rem;
-  border: black 5px solid;
+  // border: black 5px solid;
+  border-right: black 5px solid;
+  border-bottom: black 5px solid;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   position: relative;
   z-index: 2;
 }
@@ -19,6 +22,7 @@
   right: 0;
   height: .4em;
   background: black;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   transform: translateY(-50%);
   z-index: 1;
 }

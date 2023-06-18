@@ -2,10 +2,14 @@
   max-width: 620;
   margin: 0px auto;
   border-radius: 1rem;
-  border: black 5px solid;
+  // border-top-left-radius: 1rem;
+  // border: black 5px solid;
+  // border-left: black 5px solid;
+  // border-top: black 5px solid;
+  height: 100%;
   padding: 24px;
   margin-bottom: 24px;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  // box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .sub-container {
@@ -14,9 +18,12 @@
   // background-color: black;
   border-radius: 1rem;
   // border: black 5px solid;
+  height: 100%;
+  border-right: black 5px solid;
+  border-bottom: black 5px solid;
   padding: 24px;
   margin-bottom: 24px;
-  // box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .main-container p {
@@ -36,8 +43,8 @@
 }
 
 .tech-card i {
-  font-size: 4rem; /* Adjust the value as per your preference */
-  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  font-size: 3rem; /* Adjust the value as per your preference */
+  // text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
 }
 
 .tech-disp {
