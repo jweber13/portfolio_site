@@ -2,6 +2,7 @@
   max-width: 620;
   margin: 0px auto;
   border-radius: 1rem;
+  // text-align: center;
   // border-top-left-radius: 1rem;
   // border: black 5px solid;
   // border-left: black 5px solid;
@@ -10,6 +11,10 @@
   padding: 24px;
   margin-bottom: 24px;
   // box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.main-container span {
+  text-align: center;
 }
 
 .sub-container {
