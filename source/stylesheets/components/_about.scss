@@ -1,41 +1,50 @@
 .main-container {
-  max-width: 620;
+  max-width: 620px;
   margin: 0px auto;
   border-radius: 1rem;
-  height: 100%;
-  padding: 24px;
+  border-right: black 2px solid;
+  border-bottom: black 2px solid;
+  background-color: rgba(246,244,245, 0.9);
+  flex: 1;
+  // padding: 24px;
   margin-bottom: 24px;
-}
-
-.main-container span {
-  text-align: center;
 }
 
 .sub-container {
-  max-width: 580px;
+  max-width: 620px;
   margin: 0px auto;
   border-radius: 1rem;
-  height: 100%;
   border-right: black 2px solid;
   border-bottom: black 2px solid;
-  padding: 24px;
+  // padding: 24px;
   margin-bottom: 24px;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  background-color: rgba(246,244,245, 0.9);
 }
 
-.main-container p {
+#sub-header,
+#main-header{
+  border-radius: 1rem 1rem 0 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: rgba(246,244,245, 0.9);
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+#main-textbox {
   font-size: 18px;
+  padding: 0 1em;
 }
 
 .main-container h4 {
   text-align: center;
 }
 
-.wrapper-white {
-  align-items: center;
-  margin-bottom: 24px;
-  border-radius: 5px;
-}
+// .wrapper-white {
+//   align-items: center;
+//   margin-bottom: 24px;
+//   border-radius: 5px;
+// }
 
 .tech-card img {
   width: 50px;
