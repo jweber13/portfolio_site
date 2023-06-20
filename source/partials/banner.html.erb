@@ -4,18 +4,24 @@
     <%= image_tag 'site_profilecopy.png', alt: "joe-picture", class: 'avatar-large' %>
     <div class="line"></div>
     <div class="navigation-buttons d-flex justify-content-center my-4 gap-5">
-      <div class="navigation-button d-flex flex-column justify-content-center align-items-center">
-        <i class="fa-regular fa-address-card fa-2xl"></i>
-        <span style="margin-top: 1rem;">About</span>
-      </div>
-      <div class="navigation-button d-flex flex-column justify-content-center align-items-center">
-        <i class="fa-solid fa-laptop-code fa-2xl"></i>
-        <span style="margin-top: 1rem;">Projects</span>
-      </div>
-      <div class="navigation-button d-flex flex-column justify-content-center align-items-center">
-        <i class="fa-regular fa-file fa-2xl"></i>
-        <span style="margin-top: 1rem;">Resume</span>
-      </div>
+      <a href="#about" class="navigation-button-link">
+        <div class="navigation-button d-flex flex-column justify-content-center align-items-center">
+          <i class="fa-regular fa-address-card fa-2xl"></i>
+          <span style="margin-top: 1rem;">About</span>
+        </div>
+      </a>
+      <a href="#projects" class="navigation-button-link">
+        <div class="navigation-button d-flex flex-column justify-content-center align-items-center">
+          <i class="fa-solid fa-laptop-code fa-2xl"></i>
+          <span style="margin-top: 1rem;">Projects</span>
+        </div>
+      </a>
+      <a href="#resumes" class="navigation-button-link">
+        <div class="navigation-button d-flex flex-column justify-content-center align-items-center">
+          <i class="fa-regular fa-file fa-2xl"></i>
+          <span style="margin-top: 1rem;">Resume</span>
+        </div>
+      </a>
       <div class="navigation-button d-flex flex-column justify-content-center align-items-center">
         <i class="fa-regular fa-paper-plane fa-2xl"></i>
         <span style="margin-top: 1rem;">Contact</span>
