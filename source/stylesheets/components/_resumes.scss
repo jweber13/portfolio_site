@@ -22,7 +22,7 @@
   flex-direction: column;
   /*customizable*/
   height: 300px;
-  width: 75%;
+  width: 100%;
   margin: auto;
   border-radius: 1rem;
   background-color: white;
@@ -55,4 +55,10 @@
   transition: 0.2s ease-out;
   transform: translateY(-8px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+@media only screen and (min-width: 990px) {
+  .card-pick {
+    width: 75%;
+  }
 }
