@@ -8,24 +8,24 @@
   object-fit: contain;
   border-radius: 1rem;
   // border: black 5px solid;
-  border-right: black 5px solid;
-  border-bottom: black 5px solid;
+  border-right: black 2px solid;
+  border-bottom: black 2px solid;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   position: relative;
   z-index: 2;
 }
 
-.line {
-  position: absolute;
-  top: 38%;
-  left: 0;
-  right: 0;
-  height: .4em;
-  background: black;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  transform: translateY(-50%);
-  z-index: 1;
-}
+// .line {
+//   position: absolute;
+//   top: 38%;
+//   left: 0;
+//   right: 0;
+//   height: .4em;
+//   background: black;
+//   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+//   transform: translateY(-50%);
+//   z-index: 1;
+// }
 
 @media only screen and (min-width: 860px) {
   .avatar-large {

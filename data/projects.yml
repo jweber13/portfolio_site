@@ -1,5 +1,5 @@
 - name: Kenkou Match
-  description: A Rails Web App to help users find doctors in Japan & better communicate their symptoms
+  description: A Rails Web App to help users find doctors in Japan & better communicate their symptoms (OpenAI, DeepL, Google)
   image: projects/hospital.png
   url: http://www.kenkoumatch.com
   id: 1
@@ -22,8 +22,14 @@
   url: https://github.com/jweber13/restaurants-api
   id: 4
 
-- name: Fishr
-  description: Applicant Tracking System, but for Job Hunters (in progress)
+- name: Fishr (in progress)
+  description: Applicant Tracking System, but for Job Hunters
   image: projects/raw-fish.png
   url: https://github.com/jweber13/Fishr
-  id: 4
+  id: 5
+
+- name: Calculator
+  description: Fun Javascript calculator with a synthwave feel
+  image: projects/calculator.png
+  url: https://jweber13.github.io/Calculator/
+  id: 6
