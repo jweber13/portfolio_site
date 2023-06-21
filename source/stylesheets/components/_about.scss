@@ -6,7 +6,6 @@
   border-bottom: black 2px solid;
   background-color: rgba(246,244,245, 0.9);
   flex: 1;
-  // padding: 24px;
   margin-bottom: 24px;
 }
 
@@ -16,7 +15,6 @@
   border-radius: 1rem;
   border-right: black 2px solid;
   border-bottom: black 2px solid;
-  // padding: 24px;
   margin-bottom: 24px;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   background-color: rgba(246,244,245, 0.9);
@@ -24,6 +22,8 @@
 
 #sub-header,
 #main-header{
+  padding-top: 4px;
+  padding-bottom: 1px;
   border-radius: 1rem 1rem 0 0;
   background-color: rgba(0, 0, 0, 0.9);
   color: rgba(246,244,245, 0.9);
