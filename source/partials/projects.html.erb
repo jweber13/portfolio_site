@@ -7,7 +7,7 @@
             <%= image_tag project.image, alt: "project image", class: "projcard-img d-none" %>
             <div class="card-img-overlay d-flex flex-column">
               <div class="card-body">
-                <h4 class="text-center mt-0 "><a herf="#"><%=project.name%></a></h4>
+                <h4 class="text-center "><a herf="#"><%=project.name%></a></h4>
               </div>
               <div class="card-link">
                 <% link_to project.url, class: 'external-link', target: '_blank' do %>
@@ -16,7 +16,7 @@
               </div>
               <div class="card-footer">
                 <div class="media">
-                  <small class="card-meta mb-2"><%=project.description%></small>
+                  <small class="card-meta"><%=project.description%></small>
                   <br>
                   <small><i class="far fa-clock"></i> <%=project.date%></small>
                 </div>
