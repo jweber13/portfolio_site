@@ -1,26 +1,30 @@
-<div class="row delimit">
-  <div class="col-12">
-    <div class="container">
-      <div id="projects">
-        <%# <h2> Projects</h2>
-        <br> %>
-        <div class="cards">
-          <% data.projects.each do |project| %>
-            <div class="card-product">
-              <%= image_tag project.image, alt: "project image" %>
-              <div class="card-product-infos w-100">
-                <div class="d-flex justify-content-between align-items-center">
-                  <h2><%= project.name %></h2>
-                  <% link_to project.url, class: 'external-link', target: '_blank' do %>
-                    <i class="fas fa-external-link-alt"></i>
-                  <% end %>
+<section class="wrapper delimit" id="projects">
+  <div class="container">
+    <div class="row">
+      <% data.projects.each do |project| %>
+        <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+          <div class="card card-has-bg click-col" style="background-image:url('<%= image_path project.image %>');">
+            <%= image_tag project.image, alt: "project image", class: "projcard-img d-none" %>
+            <div class="card-img-overlay d-flex flex-column">
+              <div class="card-body">
+                <h4 class="text-center mt-0 "><a herf="#"><%=project.name%></a></h4>
+              </div>
+              <div class="card-link">
+                <% link_to project.url, class: 'external-link', target: '_blank' do %>
+                  <%=image_tag project.icon, alt: "link to project"%>
+                <%end%>
+              </div>
+              <div class="card-footer">
+                <div class="media">
+                  <small class="card-meta mb-2"><%=project.description%></small>
+                  <br>
+                  <small><i class="far fa-clock"></i> <%=project.date%></small>
                 </div>
-                <p><%= project.description %></p>
               </div>
             </div>
-          <% end %>
+          </div>
         </div>
-      </div>
+      <%end%>
     </div>
   </div>
-</div>
+</section>

@@ -1,35 +1,47 @@
 - name: Kenkou Match
-  description: A Rails Web App to help users find doctors in Japan & better communicate their symptoms (OpenAI, DeepL, Google)
-  image: projects/hospital.png
+  description: Rails web-app built with OpenAI to help patients find medical specialists & communicate with them more easily.
+  icon: projects/hospital.png
+  image: projects/kenkouhomepage.png
   url: http://www.kenkoumatch.com
+  date: 2023/06
   id: 1
 
 - name: Break Stuff
   description: Rails desktop app modeled on Airbnb with a "rage room" theme
-  image: projects/hammer.png
+  icon: projects/hammer.png
+  image: projects/breakstuffhome.png
   url: https://breakstufftokyo.herokuapp.com/
+  date: 2023/05
   id: 2
 
 - name: Minesweeper
   description: Minesweeper App in JS & HTML
-  image: projects/kemuridama.png
+  icon: projects/kemuridama.png
+  image: projects/placeholder.png
   url: https://jweber13.github.io/minesweeper/
+  date: 2023/04
   id: 3
 
 - name: Tolkien-Restaurant API
-  description: Rails API to share Tolkienesque Restaurants
-  image: projects/onering.png
+  description: API that shares fantasy-themed restaurants. Testing with RSpec.
+  icon: projects/onering.png
+  image: projects/placeholder.png
   url: https://github.com/jweber13/restaurants-api
+  date: 2023/06
   id: 4
 
-- name: Fishr (in progress)
-  description: Applicant Tracking System, but for Job Hunters
-  image: projects/raw-fish.png
-  url: https://github.com/jweber13/Fishr
+- name: Chat Bot
+  description: Line Chat Bot with OpenWeather & ChatGPT
+  icon: projects/line.png
+  image: projects/chatbot.png
+  url: https://github.com/jweber13/cbotapp
+  date: 2023/06
   id: 5
 
 - name: Calculator
-  description: Fun Javascript calculator with a synthwave feel
-  image: projects/calculator.png
+  description: Fun Javascript calculator with a rudimentary synthwave design
+  icon: projects/calculator.png
+  image: projects/calculatorhome.png
   url: https://jweber13.github.io/Calculator/
+  date: 2023/02
   id: 6
